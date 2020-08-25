@@ -29,14 +29,13 @@ class Header extends React.Component<Props, State> {
                 <View style={menuContainer}>
                     <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
                         <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
                         <Text style={titleMenu}>past</Text>
                         <Text style={titleMenu}>comments</Text>
+                        <Text style={titleMenu}>comments</Text>
                         <Text style={titleMenu}>ask</Text>
+                        <Text style={titleMenu}>show</Text>
+                        <Text style={titleMenu}>show</Text>
+                        <Text style={titleMenu}>show</Text>
                         <Text style={titleMenu}>show</Text>
                         <Text style={titleMenu}>jobs</Text>
                         <Text style={titleMenu}>submit</Text>
