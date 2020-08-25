@@ -22,6 +22,9 @@ class CardNew extends Component<Props, State> {
                 <View style={titleNewContainer}>
 
                     <Text style={titleNew}>Tesla wants to use laser beams to automatically clean debris off cars <Text
+                        style={sourceNew}>electrek.co</Text><Text style={titleNew}>Tesla wants to use laser beams to automatically clean debris off cars <Text
+                        style={sourceNew}>electrek.co</Text><Text style={titleNew}>Tesla wants to use laser beams to automatically clean debris off cars <Text
+                        style={sourceNew}>electrek.co</Text><Text style={titleNew}>Tesla wants to use laser beams to automatically clean debris off cars <Text
                         style={sourceNew}>electrek.co</Text></Text>
                 </View>
                 <View style={authorContainer}>
