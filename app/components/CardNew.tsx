@@ -22,6 +22,9 @@ class CardNew extends Component<Props, State> {
             <View style={containerNew}>
                 <View style={rateContainer}>
                     <Text style={rate}>256 ↑</Text>
+                    <Text style={rate}>256 ↑</Text>
+                    <Text style={rate}>256 ↑</Text>
+                    <Text style={rate}>256 ↑</Text>
                 </View>
                 <View style={titleNewContainer}>
 
