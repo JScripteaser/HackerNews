@@ -34,6 +34,9 @@ class Header extends React.Component<Props, State> {
                         <Text style={titleMenu}>comments</Text>
                         <Text style={titleMenu}>ask</Text>
                         <Text style={titleMenu}>show</Text>
+                        <Text style={titleMenu}>show</Text>
+                        <Text style={titleMenu}>show</Text>
+                        <Text style={titleMenu}>show</Text>
                         <Text style={titleMenu}>jobs</Text>
                         <Text style={titleMenu}>submit</Text>
                     </ScrollView>
