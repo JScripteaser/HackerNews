@@ -1,5 +1,5 @@
 import React from "react";
-import {Dimensions, ScrollView, StyleSheet, Text, View} from "react-native";
+import {Dimensions, SafeAreaView, ScrollView, StyleSheet, Text, View, Platform} from "react-native";
 import styles from "../../assets/styles/header_style";
 
 
@@ -19,6 +19,9 @@ class Header extends React.Component<Props, State> {
         const {headerContainer, titleContainer, titleText, menuContainer, titleMenu} = styles;
 
         return (
+            <SafeAreaView style={{
+                backgroundColor: "#000000",
+                paddingTop: Platform.OS === 'android' ? 25 : 0}}>
             <View style={headerContainer}>
                 <View style={titleContainer}>
                     <Text style={titleText}>{this.props.title}</Text>
@@ -36,7 +39,8 @@ class Header extends React.Component<Props, State> {
                     <View></View>
                 </View>
             </View>
-        )
+            </SafeAreaView>
+                )
     }
 }
 

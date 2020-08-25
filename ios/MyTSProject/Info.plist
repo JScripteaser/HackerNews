@@ -55,13 +55,13 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>FiraSans.ttf</string>
 		<string>FiraCodeBold.ttf</string>
 		<string>FiraCodeMedium.ttf</string>
 		<string>FiraCodeRegular.ttf</string>
 		<string>FiraCode-Bold.ttf</string>
 		<string>FiraCode-Medium.ttf</string>
 		<string>FiraCode-Regular.ttf</string>
+		<string>FiraSans-Bold.ttf</string>
 	</array>
 </dict>
 </plist>
