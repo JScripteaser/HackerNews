@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         lineHeight: 24,
         textAlign: 'center',
-        fontFamily: 'FiraSans',
+        fontFamily: 'FiraSans-Bold',
         color: '#c2c2c2'
     },
     titleNewContainer: {
@@ -35,12 +35,12 @@ const styles = StyleSheet.create({
         fontSize: 16,
         lineHeight: 20,
         fontWeight: 'normal',
-        fontFamily: 'FiraSans',
+        fontFamily: 'FiraSans-Bold',
         fontStyle: 'normal'
     },
     sourceNew: {
         color: '#c2c2c2',
-        fontFamily: 'FiraSans',
+        fontFamily: 'FiraSans-Bold',
         fontSize: 16,
     },
     authorContainer: {
@@ -53,12 +53,12 @@ const styles = StyleSheet.create({
     authorText: {
         fontSize: 12,
         lineHeight: 16,
-        fontFamily: 'FiraSans',
+        fontFamily: 'FiraSans-Bold',
     },
     datePost: {
         color: '#c2c2c2',
         lineHeight: 16,
-        fontFamily: 'FiraSans',
+        fontFamily: 'FiraSans-Bold',
         fontSize: 12,
 
 
