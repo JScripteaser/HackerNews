@@ -23,6 +23,7 @@ class Header extends React.Component<Props, State> {
                 backgroundColor: "#000000",
                 paddingTop: Platform.OS === 'android' ? 25 : 0}}>
             <View style={headerContainer}>
+                <View></View>
                 <View style={titleContainer}>
                     <Text style={titleText}>{this.props.title}</Text>
                     <Text style={titleText}>{this.props.title}</Text>
