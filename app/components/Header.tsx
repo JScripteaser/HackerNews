@@ -33,6 +33,7 @@ class Header extends React.Component<Props, State> {
                         <Text style={titleMenu}>jobs</Text>
                         <Text style={titleMenu}>submit</Text>
                     </ScrollView>
+                    <View></View>
                 </View>
             </View>
         )
