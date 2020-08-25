@@ -30,7 +30,7 @@ class Header extends React.Component<Props, State> {
                     <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
                         <Text style={titleMenu}>new</Text>
                         <Text style={titleMenu}>past</Text>
-                        <Text style={titleMenu}>past</Text>
+                        <Text style={titleMenu}>comments</Text>
                         <Text style={titleMenu}>comments</Text>
                         <Text style={titleMenu}>ask</Text>
                         <Text style={titleMenu}>show</Text>
