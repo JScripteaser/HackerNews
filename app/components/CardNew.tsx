@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import {StyleSheet, Text, View} from "react-native";
 import styles from "../../assets/styles/card_new_style";
+import styles from "../../assets/styles/card_new_style";
+import styles from "../../assets/styles/card_new_style";
+import styles from "../../assets/styles/card_new_style";
+import styles from "../../assets/styles/card_new_style";
 
 export interface Props {
 
