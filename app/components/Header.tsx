@@ -22,43 +22,17 @@ class Header extends React.Component<Props, State> {
             <View style={headerContainer}>
                 <View style={titleContainer}>
                     <Text style={titleText}>{this.props.title}</Text>
-                    <Text></Text>
-<<<<<<< HEAD
-=======
-                    <Text></Text>
-                    <Text></Text>
-                    <Text></Text>
->>>>>>> test master
                 </View>
                 <View style={menuContainer}>
                     <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
                         <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-<<<<<<< HEAD
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-                        <Text style={titleMenu}>new</Text>
-=======
->>>>>>> test master
                         <Text style={titleMenu}>past</Text>
                         <Text style={titleMenu}>comments</Text>
                         <Text style={titleMenu}>comments</Text>
-                        <Text style={titleMenu}>comments</Text>
-                        <Text style={titleMenu}>comments</Text>
-                        <Text style={titleMenu}>comments</Text>
-                        <Text style={titleMenu}>comments</Text>
-                        <Text style={titleMenu}>comments</Text>
-                        <Text style={titleMenu}>comments</Text>
-                        <Text style={titleMenu}>comments</Text>
-                        <Text style={titleMenu}>comments</Text>
-                        <Text style={titleMenu}>comments</Text>
                         <Text style={titleMenu}>ask</Text>
+                        <Text style={titleMenu}>show</Text>
+                        <Text style={titleMenu}>show</Text>
+                        <Text style={titleMenu}>show</Text>
                         <Text style={titleMenu}>show</Text>
                         <Text style={titleMenu}>jobs</Text>
                         <Text style={titleMenu}>submit</Text>
@@ -72,12 +46,8 @@ class Header extends React.Component<Props, State> {
                         <Text style={titleMenu}>submit</Text>
                         <Text style={titleMenu}>submit</Text>
                         <Text style={titleMenu}>submit</Text>
-                        <Text style={titleMenu}>submit</Text>
-                        <Text style={titleMenu}>submit</Text>
-                        <Text style={titleMenu}>submit</Text>
-                        <Text style={titleMenu}>submit</Text>
-                        <Text style={titleMenu}>submit</Text>
                     </ScrollView>
+                    <View></View>
                 </View>
             </View>
         )
