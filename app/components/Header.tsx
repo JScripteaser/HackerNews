@@ -25,6 +25,8 @@ class Header extends React.Component<Props, State> {
             <View style={headerContainer}>
                 <View style={titleContainer}>
                     <Text style={titleText}>{this.props.title}</Text>
+                    <Text style={titleText}>{this.props.title}</Text>
+                    <Text style={titleText}>{this.props.title}</Text>
                 </View>
                 <View style={menuContainer}>
                     <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
